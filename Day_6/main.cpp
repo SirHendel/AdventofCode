@@ -33,7 +33,7 @@ int main(){
     std::vector<lanterfish> swarm;
     lanterfish fish;
     std::ifstream infile("inputfile.txt");
-    swarm.reserve(2147400000);
+    swarm.reserve(2147400000); // needs to be high then 1605400130036
     char line;
     int a =0 ;
     while(infile.get(line)){
@@ -51,4 +51,5 @@ int main(){
     }
     std::cout<<swarm.size()<<std::endl;
     return 0;
+    //task two cant besolved with a vector;
 }

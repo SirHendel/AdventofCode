@@ -57,10 +57,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "Vom Debugger generierte Aufgabe."
         }
     ],
